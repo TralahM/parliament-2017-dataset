@@ -13,25 +13,6 @@
 # parliamet-2017-dataset.
 
 
-## Building from Source for Developers
-
-```Bash
-git clone https://github.com/TralahM/parliamet-2017-dataset.git
-cd parliamet-2017-dataset
-```
-
-# Contributing
-[See the Contributing File](CONTRIBUTING.rst)
-
-
-[See the Pull Request File](PULL_REQUEST_TEMPLATE.md)
-
-# LICENCE
-[Read the license here](LICENSE)
-
-
-
-
 ## Introduction
 This is a brief analysis of the structure of the data contained herein.
 
@@ -376,3 +357,22 @@ plotPerColumnDistribution(df2, 10, 5)
 ```python
 
 ```
+## Building from Source for Developers
+
+```Bash
+git clone https://github.com/TralahM/parliamet-2017-dataset.git
+cd parliamet-2017-dataset
+```
+
+# Contributing
+[See the Contributing File](CONTRIBUTING.rst)
+
+
+[See the Pull Request File](PULL_REQUEST_TEMPLATE.md)
+
+# LICENCE
+[Read the license here](LICENSE)
+
+
+
+
