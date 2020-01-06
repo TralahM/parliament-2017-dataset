@@ -8,10 +8,9 @@
 [![PyPI pyversions](https://img.shields.io/pypi/pyversions/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://github.com/TralahM/pull/)
 [![GitHub pull-requests](https://img.shields.io/github/issues-pr/Naereen/StrapDown.js.svg)](https://gitHub.com/TralahM/parliamet-2017-dataset/pull/)
-[![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/TralahM/parliamet-2017-dataset).
+[![GitHub version](https://badge.fury.io/gh/Naereen%2FStrapDown.js.svg)](https://github.com/TralahM/parliamet-2017-dataset)
 
 # parliamet-2017-dataset.
-
 
 ## Introduction
 This is a brief analysis of the structure of the data contained herein.
@@ -148,19 +147,6 @@ df1.head(5)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
 <table border="1" class="dataframe">
   <thead>
     <tr style="text-align: right;">
@@ -264,18 +250,6 @@ df2.head(5)
 
 
 <div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
 </style>
 <table border="1" class="dataframe">
   <thead>
@@ -340,7 +314,7 @@ Distribution graphs (histogram/bar graph) of sampled columns:
 
 
 ```python
-plotPerColumnDistribution(df2, 10, 5)
+plotPerColumnDistribution(df2[["Party","Status"]], 10, 5)
 ```
 
 
@@ -351,12 +325,13 @@ plotPerColumnDistribution(df2, 10, 5)
 * Jubilee has the tyranny of numbers in the current parliament
 * ODM comes second
 * Wiper third
-*Some political party data is missing or the candindate was independent*
+* Some political party data is missing or the candindate was *independent*
 
 
 ```python
 
 ```
+
 ## Building from Source for Developers
 
 ```Bash
@@ -372,7 +347,5 @@ cd parliamet-2017-dataset
 
 # LICENCE
 [Read the license here](LICENSE)
-
-
 
 
