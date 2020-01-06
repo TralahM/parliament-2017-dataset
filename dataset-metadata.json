@@ -1,0 +1,29 @@
+{
+  "title": "Kenya 2017 Parliament Members Dataset",
+  "subtitle":"Members of Parliament Including Political Parties, Photos",
+  "id": "tralahm/Members-of-Parliament-KE-2017",
+  "resources":[
+      {
+          "path":"MPs.csv",
+          "description":"All Members of the National Assembly"
+      },
+      {
+          "path":"Senators.csv",
+          "description":"All Members of the Senate"
+      }
+  ],
+  "keywords":[
+      "python",
+      "Kenya",
+      "Electoral-Data",
+      "Political",
+      "Election",
+      "Politics"
+  ],
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "name":"GPL-2.0"
+    }
+  ]
+}
